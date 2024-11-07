@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- بسم الله الرحمن الرحيم -->
+<head>
+<title>الدكتور محمد عباسة جامعة مستغانم الجزائر</title>
+<meta http-equiv="Content-Language" content="ar" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="index, follow" />
+<style>
+body {
+	
+	background: #ffe;
+}
+.text {
+	direction: rtl;
+	font-family: Tahoma;
+	font-size: 13px;
+	line-height: 150%;
+	text-align: center;
+	padding: 100px;
+}
+.date {
+	font-size: 1em;
+	color: #c66;
+	text-align: center;
+}
+table, td {
+	font-family: "Trebuchet ms", Tahoma, Sans-serif;
+	font-size: 17px;
+	line-height: 150%;
+	text-align: center;
+}
+.pad {
+	padding-top: 20px;
+}
+a {
+	font-size: 1em;
+	color: #669;
+	text-decoration: none;
+}
+.link {
+	font-size: 1.2em;
+}
+a:hover {
+	color: #c66;
+}
+</style>
+</head>
+
+<body>
+<div lang="ar" class="text">
+<table align="center">
+<tr>
+<td>
+<div class="date">
+<script language=JavaScript>
+<!--
+var fixd;
+function isGregLeapYear(year)
+{
+return year%4 == 0 && year%100 != 0 || year%400 == 0;
+}
+function gregToFixed(year, month, day)
+{
+var a = Math.floor((year - 1) / 4);
+var b = Math.floor((year - 1) / 100);
+var c = Math.floor((year - 1) / 400);
+var d = Math.floor((367 * month - 362) / 12);
+if (month <= 2)
+e = 0;
+else if (month > 2 && isGregLeapYear(year))
+e = -1;
+else
+e = -2;
+return 0  + 365 * (year - 1) + a - b + c + d + e + day;
+}
+function Hijri(year, month, day)
+{
+this.year = year;
+this.month = month;
+this.day = day;
+this.toFixed = hijriToFixed;
+this.toString = hijriToString;
+}
+function hijriToFixed()
+{
+return this.day + Math.ceil(29.5 * (this.month - 1)) + (this.year - 1) * 354 +
+Math.floor((3 + 11 * this.year) / 30) + 227014 - 1;
+}
+function hijriToString()
+{
+var months = new Array("محرم","صفر","ربيع أول","ربيع ثانى","جمادى أول","جمادى ثانى","رجب","شعبان","رمضان","شوال","ذو القعدة","ذو الحجة");
+return this.day + " " + months[this.month - 1]+ " " + this.year;
+}
+function fixedToHijri(f)
+{
+var i=new Hijri(1100, 1, 1);
+i.year = Math.floor((30 * (f - 227015) + 10646) / 10631);
+var i2=new Hijri(i.year, 1, 1);
+var m = Math.ceil((f - 29 - i2.toFixed()) / 29.5) + 1;
+i.month = Math.min(m, 12);
+i2.year = i.year;
+i2.month = i.month;
+i2.day = 1;
+i.day = f - i2.toFixed() + 1;
+return i;
+}
+var tod=new Date();
+var weekday=new Array("الأحد","الإثنين","الثلاثاء","الأربعاء","الخميس","الجمعة","السبت");
+var monthname=new Array("جانفي","فيفري","مارس","أفريل","ماي","جوان","جويلية","أوت","سبتمبر","أكتوبر","نوفمبر","ديسمبر");
+var y = tod.getFullYear();
+var m = tod.getMonth();
+var d = tod.getDate();
+var dow = tod.getDay();
+document.write(weekday[dow] + " " + d + " " + monthname[m] + " " + y);
+m++;
+fixd=gregToFixed(y, m, d);
+var h=new Hijri(1421, 11, 28);
+h = fixedToHijri(fixd);
+document.write(" " + " <br /> الموافق " + h.toString() );
+//-->
+</SCRIPT>
+</div>
+</td>
+</tr>
+<tr>
+<td class="pad">
+مجلة حوليات التراث
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://annales.univ-mosta.dz" target="_blank">annales.univ-mosta.dz</a>
+</td>
+</tr>
+<tr>
+<td>
+annales@mail.com
+</td>
+</tr>
+<tr>
+<td class="pad">
+ابحث عن مقال
+<form action="http://search.freefind.com/find.html" method="get">
+<a href="http://search.freefind.com/find.html?id=70226587"></a>
+<input type="hidden" name="id" size="-1" value="70226587" />
+<input type="hidden" name="pid" size="-1" value="r" />
+<input type="hidden" name="mode" size="-1" value="all" />
+<input type="hidden" name="n" value="0" />
+<input type="text" id="search" name="query"  maxlength="45" value="" style="padding-top:3px;padding-left:5px;padding-right:5px;border:1px solid #d7e3f7;vertical-align:top;background-color:#fff; font-family:Tahoma;text-align:right;font-size:12px;color:#808080;width:144px;height:19px;" />
+<br />
+<input type="submit" id="button" style="border:2px solid #d7e3f7;border-right:1px solid #d7e3f7;vertical-align:top;width:65px;height:25px;padding-bottom:3px;padding-top:1px;background-color:#4a7aaa;cursor:pointer;font-family:Tahoma;text-align:center;" value="ابحث " />
+</form>
+</td>
+</tr>
+<tr>
+<td class="pad">
+<!-- Logo -->
+<img src="https://annales.univ-mosta.dz/images/logolx.png" alt="Annales du patrimoine" />
+<!-- End -->
+</td>
+</tr>
+<tr>
+<td class="pad">
+مؤسس المجلة ومسؤول التحرير
+</td>
+</tr>
+<tr>
+<td>
+د. محمد عباسة
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://abbassa.wordpress.com" target="_blank">abbassa.wordpress.com</a>
+</td>
+</tr>
+<tr>
+<td class="pad">
+© 2004 - جامعة مستغانم - الجزائر
+</td>
+</tr>
+</table>
+</div>
+
+</body>
+</html>
